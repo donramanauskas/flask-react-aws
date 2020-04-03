@@ -1,0 +1,1 @@
+# Deploying flask react application to ECS.
