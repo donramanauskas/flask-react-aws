@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     AWS_REGION: "eu-north-1"
-    REACT_APP_USERS_SERVICE_URL: http://flask-react-alb-144096917.eu-north-1.elb.amazonaws.com
+    REACT_APP_USERS_SERVICE_URL: http://flask-react-alb-2010580927.eu-north-1.elb.amazonaws.com
 
 phases:
   install:
