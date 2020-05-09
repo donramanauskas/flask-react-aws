@@ -34,7 +34,7 @@
         "logDriver": "awslogs",
         "options": {
           "awslogs-group": "/ecs/flask-react-users-td",
-          "awslogs-region": "us-west-1"
+          "awslogs-region": "eu-north-1"
         }
       }
     }
