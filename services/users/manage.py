@@ -22,8 +22,11 @@ def recreate_db():
 
 @cli.command("seed_db")
 def seed_db():
-    db.session.add(User(username="michael", email="hermanmu@gmail.com", password="supersecret"))
-    db.session.add(User(username="michaelherman", email="michael@mherman.org", password="supersecret"))
+    """
+    Cretes few db entries for testing.
+    """
+    db.session.add(User(username="user1", email="user@gmail.com", password="supersecret"))
+    db.session.add(User(username="user2", email="user3l@mherman.org", password="supersecret"))
     db.session.commit()
 
 
