@@ -2,3 +2,4 @@
 max-line-length = 119
 
 .idea
+.DS_Store
